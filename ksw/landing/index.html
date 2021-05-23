@@ -631,8 +631,7 @@
     });
 
     document.addEventListener('DOMContentLoaded', function () {
-        let Highcharts;
-        Highcharts.chart('container-1', {
+        let myChart1 = Highcharts.chart('container-1', {
             chart: {
                 type: 'column'
             },
@@ -656,7 +655,7 @@
             }]
         });
 
-        Highcharts.chart('container-2', {
+        let myChart2 = Highcharts.chart('container-2', {
             chart: {
                 type: 'column'
             },
@@ -680,7 +679,7 @@
             }]
         });
 
-        Highcharts.chart('container-3', {
+        let myChart3 = Highcharts.chart('container-3', {
             chart: {
                 type: 'column'
             },
