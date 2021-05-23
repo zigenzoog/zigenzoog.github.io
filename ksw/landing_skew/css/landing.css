@@ -802,7 +802,7 @@ p {
 }
 
 .monitoring-search .preset button {
-    background-image: url(/dev/images/landing/icon-search.svg);
+    background-image: url(../images/icon-search.svg);
     background-color: var(--color-accent);
     background-size: 60%;
     border-color: var(--color-accent);
@@ -812,7 +812,7 @@ p {
 }
 
 .monitoring-search .preset > .pill:before {
-    background-image: url(/dev/images/landing/icon-search_dark.svg);
+    background-image: url(../images/icon-search_dark.svg);
     background-size: 60%;
     display: block;
     content: "";
@@ -1020,7 +1020,7 @@ p {
 }
 
 .fragment-welcome .panel:before {
-    background: transparent url(/dev/images/landing/bg_welcome.png) no-repeat right top;
+    background: transparent url(../images/bg_welcome.png) no-repeat right top;
     background-size: contain;
     transform-origin: right top;
     display: block;
@@ -1035,7 +1035,7 @@ p {
 /*.scene-2 .fragment-welcome .panel:before,
 .scene-3 .fragment-welcome .panel:before,
 .scene-4 .fragment-welcome .panel:before {
-    background-image: url(/dev/images/landing/bg_login.png);
+    background-image: url(../images/bg_login.png);
     transition: background-image .2s ease .3s;
 }*/
 .scene-2 .fragment-welcome .panel:before,
@@ -1055,7 +1055,7 @@ p {
         opacity: 0;
     }
     60%, 100% {
-        background-image: url(/dev/images/landing/bg_login.png);
+        background-image: url(../images/bg_login.png);
     }
     100% {
         opacity: 1;
@@ -1200,7 +1200,7 @@ p {
 }
 
 .fragment-demo .panel:before {
-    background-image: url(/dev/images/landing/bg_demo_dummy.png);
+    background-image: url(../images/bg_demo_dummy.png);
     background-position: right top;
     width: 100vw;
     opacity: .12;
@@ -1212,7 +1212,7 @@ p {
 }
 
 .fragment-demo .panel:after {
-    background-image: url(/dev/images/landing/bg_demo_purple.png);
+    background-image: url(../images/bg_demo_purple.png);
     background-position: 87% center;
     width: 100%;
     pointer-events: none;

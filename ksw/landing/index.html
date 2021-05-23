@@ -25,8 +25,8 @@
                 <h1>Simplu!</h1>
                 <h3>Despre procesul și rezultatele afacerii tale în Facebook</h3>
                 <div class="bar">
-                    <a class="button" href="#">Start Your Free Trial</a>
-                    <a class="button btn-white" href="#">Try Demo</a>
+                    <a class="button" href="#home">Start Your Free Trial</a>
+                    <a class="button btn-white" href="#home">Try Demo</a>
                 </div>
                 <a href="#about">De ce să alegi KickSocialWork?</a>
             </article>
@@ -72,7 +72,8 @@
         <div class="inner">
             <div class="bar">
                 <h2>Încearcă acum absolut gratuit</h2>
-                <div><a class="button btn-facebook" href="#"><i class="fab fa-facebook shift"></i>Sign up with Facebook</a>
+                <div><a class="button btn-facebook" href="#home"><i class="fab fa-facebook shift"></i>Sign up with
+                        Facebook</a>
                 </div>
             </div>
         </div>
@@ -110,7 +111,7 @@
                     <h2>Dashboard</h2>
                     <p>Un bord personalizat, care permite monitorizarea indicatoarelor principale de performață. Alege
                         ce este important să urmărești, iar platforma îți prezintă rezultatele in timp scurt.</p>
-                    <div><a class="button btn-link" href="#">Get Started</a></div>
+                    <div><a class="button btn-link" href="#dashboard">Get Started</a></div>
                 </figcaption>
             </figure>
         </figure>
@@ -128,7 +129,7 @@
                         de la fiecare pagina ale afacerii dumnevoastră.Analiza evoluției brandului pe parcursul
                         ultimelor luni, ajustarea și urmărirea postărilor de top. Astfel e posibil de comparat
                         rezultatele și de generat un conținut relevant pentru audiență.</p>
-                    <div><a class="button btn-link" href="#">Get Started</a></div>
+                    <div><a class="button btn-link" href="#general">Get Started</a></div>
                 </figcaption>
             </figure>
         </div>
@@ -144,7 +145,7 @@
                     <h2>Advanced Statistics</h2>
                     <p>Optimizarea strategiei și postărilor. Urmărirea indicatorilor de orformață. Crearea rapoartelor
                         în câteva clickuri.</p>
-                    <div><a class="button btn-link" href="#">Get Started</a></div>
+                    <div><a class="button btn-link" href="#advanced">Get Started</a></div>
                 </figcaption>
             </figure>
         </div>
@@ -171,7 +172,7 @@
                 <figcaption class="motto">
                     <h1>Simplu!</h1>
                     <h3>Despre procesul și rezultatele afacerii tale în Facebook</h3>
-                    <div><a class="button" href="#">Start Your Free Trial</a></div>
+                    <div><a class="button" href="#about">Start Your Free Trial</a></div>
                 </figcaption>
             </figure>
         </div>
@@ -222,7 +223,7 @@
             <div class="bar">
                 <div><i class="fas fa-award"></i></div>
                 <h3>Încearcă acum absolut gratuit</h3>
-                <div><a class="button btn-primary" href="#">Start Your Free Trial</a></div>
+                <div><a class="button btn-primary" href="#home">Start Your Free Trial</a></div>
             </div>
         </div>
     </section>
@@ -242,7 +243,7 @@
         <div class="body">
             <menu class="bar">
                 <a href="#home">Acasă</a>
-                <a href="#">Prețuri</a>
+                <a href="#home">Prețuri</a>
                 <div class="dropdown">
                     <a href="javascript:void(0)">Instrumente<i class="fas fa-caret-down shift-left"></i></a>
                     <menu class="popup">
@@ -266,8 +267,8 @@
         </div>
         <div class="foot">
             <menu class="bar">
-                <a href="#"><i class="fas fa-sign-in-alt shift"></i>Login</a>
-                <a class="button btn-accent" href="#">Înregistrează-te</a>
+                <a href="#home"><i class="fas fa-sign-in-alt shift"></i>Login</a>
+                <a class="button btn-accent" href="#home">Înregistrează-te</a>
             </menu>
         </div>
     </section>
@@ -278,8 +279,8 @@
     <section class="inner">
         <div class="copyright">&copy; Copyright 2019 KickSocialWork. All Rights Reserved</div>
         <div class="bar nav">
-            <a href="#">Privacy Policy<i class="fas fa-external-link-alt shift-left"></i></a>
-            <a href="#">Terms &amp; Conditions<i class="fas fa-external-link-alt shift-left"></i></a>
+            <a href="#home">Privacy Policy<i class="fas fa-external-link-alt shift-left"></i></a>
+            <a href="#home">Terms &amp; Conditions<i class="fas fa-external-link-alt shift-left"></i></a>
         </div>
         <nav class="bar nav-social">
             <a href="#contact"><i class="fab fa-facebook-f"></i></a>
@@ -295,10 +296,10 @@
 <aside id="modal-drawer" class="modal side-left">
     <nav class="modal-view">
         <menu class="list">
-            <a class="mobile" href="#">Login</a>
-            <a class="mobile divider" href="#">Înregistrează-te</a>
+            <a class="mobile" href="#home">Login</a>
+            <a class="mobile divider" href="#home">Înregistrează-te</a>
             <a href="#home">Acasă</a>
-            <a href="#">Prețuri</a>
+            <a href="#home">Prețuri</a>
             <a href="#monitoring">Kick Monitoring</a>
             <a href="#monitoring">Kick Winner</a>
             <a href="#tools">Instrumente</a>
@@ -630,6 +631,7 @@
     });
 
     document.addEventListener('DOMContentLoaded', function () {
+        let Highcharts;
         Highcharts.chart('container-1', {
             chart: {
                 type: 'column'
