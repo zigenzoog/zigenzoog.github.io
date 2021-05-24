@@ -1,7 +1,6 @@
+
 ## KickSocialWork
 
-1. Landing page:
-    https://zigenzoog.github.io/ksw/landing/
+1. [Landing page](https://zigenzoog.github.io/ksw/landing/)
 
-2. Conceptual landing page (only for desktop, without adaptive):
-    https://zigenzoog.github.io/ksw/landing_skew/
+2. [Conceptual landing page](https://zigenzoog.github.io/ksw/landing_skew/) (only for desktop, without adaptive):
